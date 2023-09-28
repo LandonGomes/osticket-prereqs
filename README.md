@@ -22,8 +22,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
+- Item 1 (Create Virtual Machine in Azure)
+Create a Resource Group
+Create a Windows 10 Virtual Machine (VM) with 2-4 Virtual CPUs
+When creating the VM, allow it to create a new Virtual Network (Vnet). Create an Azure Virtual Machine Windows 10, 4 vCPUs
+Name: Vm-osticket
+Username: labuser (for example/whatever you chose)
+Password: osTicketPassword1! (for example/whatever you chose) 
+Install / Enable IIS in Windows WITH
+CGI and Common HTTP Features
+World Wide Web Services -> Application Development Features ->
+[X] CGI
+[X] Common HTTP Features
+AND IIS Management Console
+Internet Information Services -> Web Management Tools -> IIS Management Console
+	[X] IIS Management Console
+
+
+
+- Item 2 
 - Item 3
 - Item 4
 - Item 5
